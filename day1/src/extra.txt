@@ -1,0 +1,19 @@
+public class App {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+    // main function is responsible to execute all the codes
+    // return type
+}
+
+// oop | scope/access (public, private, protected)
+
+data types 
+primitive 
+    int, boolean, float, double, short int, long int, char  
+non-primitive
+    string
+
+rules for making a variables
+
+data-type  name = data/value;
