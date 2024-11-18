@@ -11,69 +11,85 @@ public class App {
 
         // variables in java
 
-        int a = 21;
-        int b = 22;
-        int c = 23;
+        // int a = 21;
+        // int b = 22;
+        // int c = 23;
 
-        float pi = (float) 3.142;
-        // type casting[]
+        // float pi = (float) 3.142;
+        // // type casting[]
 
-        double bigPi = 3.142738;
+        // double bigPi = 3.142738;
 
-        boolean option = true;
+        // boolean option = true;
 
-        char value = 'a';
+        // char value = 'a';
 
-        String name = "amey";
-        // import java.lang.*(everything);
+        // String name = "amey";
+        // // import java.lang.*(everything);
 
-        // printf("the value of a is %d",a);
-        // concatination | joining 2 or more "string" may be with a variable also
-        System.out.println("the value of a is " + a + " !");
-        System.out.println("the value of b is " + b + " !");
-        System.out.println("the value of c is " + c + " !");
+        // // printf("the value of a is %d",a);
+        // // concatination | joining 2 or more "string" may be with a variable also
+        // System.out.println("the value of a is " + a + " !");
+        // System.out.println("the value of b is " + b + " !");
+        // System.out.println("the value of c is " + c + " !");
 
-        // System.out.println("the sum of a and b is "+a+b+" !");
-        System.out.println("the sum of a and b is " + (a + b) + " !");
+        // // System.out.println("the sum of a and b is "+a+b+" !");
+        // System.out.println("the sum of a and b is " + (a + b) + " !");
 
-        System.out.println("my name is " + name);
+        // System.out.println("my name is " + name);
 
-        // oprators
-        // airthmatic(+ - * / % ), logical (&&, ||), conditional ( < > <= >= != == ===)
-        // , increement (++value, value++), decreement(--value, value--), assignment(=)
+        // // oprators
+        // // airthmatic(+ - * / % ), logical (&&, ||), conditional ( < > <= >= != == ===)
+        // // , increement (++value, value++), decreement(--value, value--), assignment(=)
 
-        // int data1 = 1;
-        // int data2 = 2;
+        // // int data1 = 1;
+        // // int data2 = 2;
 
-        // float answer = (float) data1 % data2;
+        // // float answer = (float) data1 % data2;
 
-        // System.out.println(answer);
+        // // System.out.println(answer);
 
-        // increement and decreement
+        // // increement and decreement
 
-        // int data3 = 1;
+        // // int data3 = 1;
 
-        // data3++;
+        // // data3++;
 
-        // // first value is going to be 1
-        // System.out.println("value before increement is : " + data3);
+        // // // first value is going to be 1
+        // // System.out.println("value before increement is : " + data3);
 
-        // // next value is going to be 2
-        // System.out.println("value after increement is : " + data3);
+        // // // next value is going to be 2
+        // // System.out.println("value after increement is : " + data3);
 
 
-        // for(int i = 0 ; i <  5; ++i){
-        //     System.out.println(i);
+        // // for(int i = 0 ; i <  5; ++i){
+        // //     System.out.println(i);
     
-        // }
+        // // }
 
-        int x = 1;
+        // int x = 1;
 
-        int a1 = ++x;
-        // int b1 = x++;
+        // int a1 = ++x;
+        // // int b1 = x++;
 
-        System.out.println(a1);
-        // System.out.println(b1);
+        // System.out.println(a1);
+        // // System.out.println(b1);
+
+        int a = 10;
+        int b = 11;
+        int c = 12;
+
+        if(a > b){
+            if(a > c){
+                System.out.println("A is greater of all !");
+            }else{
+                System.out.println("C is greater of all !");
+            }
+        }else if(b > c){
+            System.out.println("B is greater of all !");
+        }else{
+            System.out.println("C is greater of all !");
+        }
 
     }
 
